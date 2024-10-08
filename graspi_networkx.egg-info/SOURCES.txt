@@ -1,0 +1,9 @@
+README.md
+setup.py
+graspi_networkx/__init__.py
+graspi_networkx/module.py
+graspi_networkx.egg-info/PKG-INFO
+graspi_networkx.egg-info/SOURCES.txt
+graspi_networkx.egg-info/dependency_links.txt
+graspi_networkx.egg-info/requires.txt
+graspi_networkx.egg-info/top_level.txt

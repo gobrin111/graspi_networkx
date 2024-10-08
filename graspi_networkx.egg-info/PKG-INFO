@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: graspi-networkx
+Version: 0.1.5
+Summary: A package that utilizes NetworkX functionality for GraSPI
+Home-page: https://github.com/gobrin111/graspi_networkx
+Author: Qi Pan
+Author-email: mleung8@buffalo.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: contourpy==1.3.0
+Requires-Dist: cycler==0.12.1
+Requires-Dist: fonttools==4.54.1
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: networkx<3.4,>=3.2
+Requires-Dist: numpy<2.1,>=2.0.0
+Requires-Dist: packaging==24.1
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pillow==10.4.0
+Requires-Dist: pyparsing==3.1.4
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2024.2
+Requires-Dist: scipy<1.14,>=1.9.0
+Requires-Dist: six==1.16.0
+Requires-Dist: tzdata==2024.2
+
+# i have no idea what i'm doing
