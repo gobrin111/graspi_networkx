@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='graspi_networkx',
-    version='0.1.5',
+    version='0.1.6',
     packages=find_packages(),
     install_requires=[
         'contourpy==1.3.0',
@@ -16,6 +16,9 @@ setup(
         'pandas==2.2.3',
         'pillow==10.4.0',
         'pyparsing==3.1.4',
+        'PyQt6==6.7.1',
+        'PyQt6-Qt6==6.7.3',
+        'PyQt6_sip==13.8.0',
         'python-dateutil==2.9.0.post0',
         'pytz==2024.2',
         'scipy>=1.9.0,<1.14',

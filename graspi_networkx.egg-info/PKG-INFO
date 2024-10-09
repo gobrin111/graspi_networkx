@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: graspi-networkx
-Version: 0.1.5
+Version: 0.1.6
 Summary: A package that utilizes NetworkX functionality for GraSPI
 Home-page: https://github.com/gobrin111/graspi_networkx
 Author: Qi Pan
@@ -21,10 +21,43 @@ Requires-Dist: packaging==24.1
 Requires-Dist: pandas==2.2.3
 Requires-Dist: pillow==10.4.0
 Requires-Dist: pyparsing==3.1.4
+Requires-Dist: PyQt6==6.7.1
+Requires-Dist: PyQt6-Qt6==6.7.3
+Requires-Dist: PyQt6_sip==13.8.0
 Requires-Dist: python-dateutil==2.9.0.post0
 Requires-Dist: pytz==2024.2
 Requires-Dist: scipy<1.14,>=1.9.0
 Requires-Dist: six==1.16.0
 Requires-Dist: tzdata==2024.2
 
-# i have no idea what i'm doing
+
+<h1>Installing graspi_networkx via pip</h1>
+<p>Below are instrictions regarding how to install graspi_networkx.</p>
+
+## INSTALLATION
+1. ```bash
+   pip install graspi-networkx==0.1.5
+   ```
+2. That's it
+<br>
+<h2>USING THE PACKAGE</h2>
+<p>After installing all dependencies, you're able to follow this formula in the command line</p>
+<h3> importing graspi_networkx via notebook/python script</h3>
+
+```bash
+import graspi_networkx as gn
+```
+<h3> Command Line Formula</h3>
+
+```bash
+python .\main
+```
+Example
+```bash
+
+```
+<h3>OUTPUTS</h3>
+
+* Nodes and edges for the created graph
+* Nodes and edges for the created subgraph
+* Node 0 represents a blue cathode and Node 1 represents a red anode
